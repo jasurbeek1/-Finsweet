@@ -1,0 +1,11 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .secondr-container {
+  display: flex;
+}
+.container .secondr-container .ipsum--div {
+  display: flex;
+  gap: 47px;
+}/*# sourceMappingURL=about.css.map */

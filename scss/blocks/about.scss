@@ -1,0 +1,11 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    .secondr-container{
+        display: flex;
+        .ipsum--div{
+            display: flex;
+            gap: 47px;
+        }
+    }
+}

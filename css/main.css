@@ -18,14 +18,14 @@ ul {
   list-style: none;
 }
 
-z body {
-  background-color: #1c1e53;
-}
-
 header {
   max-width: 1600px;
   margin: 0 auto;
   margin-top: 50px;
+  background-color: #1c1e53;
+  height: 92px;
+  display: flex;
+  align-items: center;
 }
 
 nav {
@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-link h1 {
-  color: #FFf;
+  color: #FFF;
   font-size: 30px;
 }
 
@@ -51,6 +51,7 @@ nav {
   display: flex;
   align-items: center;
   margin: 0;
+  gap: 40px;
 }
 
 .nav-list__item a {
@@ -73,4 +74,4 @@ nav {
 .header-btn {
   display: flex;
   justify-content: space-between;
-}
+}/*# sourceMappingURL=main.css.map */
