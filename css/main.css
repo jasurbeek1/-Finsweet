@@ -22,7 +22,7 @@ nav{
     align-items: center;
 }
 .nav-link h1{
-    color: #000;
+    color: #FFf;
     font-size: 30px;
 }
 
@@ -45,7 +45,7 @@ nav{
     transition: all 0.1s ease-in-out;
 }
 
-.btn{
+.header-btn{
     color: white;
     background-color: transparent;
     border-color: #F4F6FC;
@@ -53,7 +53,7 @@ nav{
     padding: 16px 41px;
 }
 
-.btn{
+.header-btn{
     display: flex;
     justify-content: space-between;
 }
