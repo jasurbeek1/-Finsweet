@@ -7,5 +7,6 @@
 }
 .container .secondr-container .ipsum--div {
   display: flex;
+  justify-content: center;
   gap: 47px;
 }/*# sourceMappingURL=about.css.map */

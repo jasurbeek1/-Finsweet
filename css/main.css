@@ -74,4 +74,17 @@ nav {
 .header-btn {
   display: flex;
   justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container .secondr-container {
+  display: flex;
+}
+.container .secondr-container .ipsum--div {
+  display: flex;
+  justify-content: center;
+  gap: 47px;
 }/*# sourceMappingURL=main.css.map */
