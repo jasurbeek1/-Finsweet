@@ -1,3 +1,4 @@
+
 header {
   max-width: 1600px;
   margin: 0 auto;
@@ -14,6 +15,16 @@ nav {
 .nav-link h1 {
   color: #fff;
   font-size: 30px;
+
+
+
+
+
+header{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 40px;
+    background-color: #1c1e53;
 }
 
 .nav-div {
@@ -45,4 +56,66 @@ nav {
 .header-btn {
   display: flex;
   justify-content: space-between;
+}
+
+// end of navbar
+
+.hero-section{
+    max-width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #1c1e53; 
+    padding-top: 100px;
+    position: relative;
+}
+
+.fild-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-titel__h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 74px;
+color: white;
+width: 500px;
+}
+
+.heroText{
+    width: 500px;
+    color:#FFFFFF ;
+    opacity: 70%;
+    margin-top: 10%;
+}
+
+.hero-btns{
+  position: absolute;
+  top: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  .btn1{
+      padding: 16px 56px;
+      background-color: #FCD980;
+      color: #000;
+      border: 0;
+      border-radius: 41px;
+  } 
+  span  {
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+      gap: 10px;
+      .btn2{
+          color: white;
+          background-color: transparent;
+          border: none;
+          }
+        } 
 }
