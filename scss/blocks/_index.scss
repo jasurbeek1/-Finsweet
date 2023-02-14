@@ -1,24 +1,8 @@
 
-header {
-  max-width: 1600px;
-  margin: 0 auto;
-  margin-top: 50px;
+
+body{
+    font-family: sans-serif;
 }
-
-nav {
-  width: 1240px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-link h1 {
-  color: #fff;
-  font-size: 30px;
-
-
-
-
 
 header{
     max-width: 1440px;
@@ -27,35 +11,48 @@ header{
     background-color: #1c1e53;
 }
 
-.nav-div {
-  display: flex;
-  align-items: center;
-  gap: 50px;
+nav{
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.nav-list {
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-.nav-list__item a {
-  color: #bbbbcb;
-}
-.nav-list__item a:hover {
-  color: #fff;
-  transition: all 0.1s ease-in-out;
+.nav-link h1{
+    color: #FFf;
+    font-size: 30px;
 }
 
-.header-btn {
-  color: white;
-  background-color: transparent;
-  border-color: #f4f6fc;
-  border-radius: 41px;
-  padding: 16px 41px;
+
+.nav-div{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.nav-list__item a{
+    color:#BBBBCB;
+}
+.nav-list__item a:hover{
+    color: #fff;
+    transition: all 0.1s ease-in-out;
 }
 
-.header-btn {
-  display: flex;
-  justify-content: space-between;
+.header-btn{
+    color: white;
+    background-color: transparent;
+    border-color: #F4F6FC;
+    border-radius: 41px;
+    padding: 16px 41px;
+}
+
+.header-btn{
+    display: flex;
+    justify-content: space-between;
 }
 
 // end of navbar
@@ -77,6 +74,7 @@ header{
 }
 
 .hero-titel__h1{
+    font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
 font-size: 54px;
@@ -93,29 +91,28 @@ width: 500px;
 }
 
 .hero-btns{
-  position: absolute;
-  top: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  .btn1{
-      padding: 16px 56px;
-      background-color: #FCD980;
-      color: #000;
-      border: 0;
-      border-radius: 41px;
-  } 
-  span  {
-      display: flex;
-      justify-content: center;  
-      align-items: center;
-      gap: 10px;
-      .btn2{
-          color: white;
-          background-color: transparent;
-          border: none;
-          }
-        } 
-}
+    position: absolute;
+    top: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    .btn1{
+        padding: 16px 56px;
+        background-color: #FCD980;
+        color: #000;
+        border: 0;
+        border-radius: 41px;
+    }
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .btn2{
+            color: white;
+            background-color: transparent;
+            border: none;
+            }
+    }
 }

@@ -17,10 +17,15 @@ ul {
   list-style: none;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 header {
-  max-width: 1600px;
+  max-width: 1440px;
   margin: 0 auto;
-  margin-top: 50px;
+  padding-top: 40px;
+  background-color: #1c1e53;
 }
 
 nav {
@@ -32,44 +37,45 @@ nav {
 }
 
 .nav-link h1 {
-  color: #fff;
+  color: #FFf;
   font-size: 30px;
 }
-.nav-link h1 header {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-top: 40px;
-  background-color: #1c1e53;
-}
-.nav-link h1 .nav-div {
+
+.nav-div {
   display: flex;
   align-items: center;
   gap: 50px;
 }
-.nav-link h1 .nav-list {
+
+.nav-list {
   display: flex;
   align-items: center;
   margin: 0;
 }
-.nav-link h1 .nav-list__item a {
-  color: #bbbbcb;
+
+.nav-list__item a {
+  color: #BBBBCB;
 }
-.nav-link h1 .nav-list__item a:hover {
+
+.nav-list__item a:hover {
   color: #fff;
   transition: all 0.1s ease-in-out;
 }
-.nav-link h1 .header-btn {
+
+.header-btn {
   color: white;
   background-color: transparent;
-  border-color: #f4f6fc;
+  border-color: #F4F6FC;
   border-radius: 41px;
   padding: 16px 41px;
 }
-.nav-link h1 .header-btn {
+
+.header-btn {
   display: flex;
   justify-content: space-between;
 }
-.nav-link h1 .hero-section {
+
+.hero-section {
   max-width: 1440px;
   height: 700px;
   margin: 0 auto;
@@ -77,13 +83,16 @@ nav {
   padding-top: 100px;
   position: relative;
 }
-.nav-link h1 .fild-container {
+
+.fild-container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
-.nav-link h1 .hero-titel__h1 {
+
+.hero-titel__h1 {
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 54px;
@@ -91,13 +100,15 @@ nav {
   color: white;
   width: 500px;
 }
-.nav-link h1 .heroText {
+
+.heroText {
   width: 500px;
   color: #FFFFFF;
   opacity: 70%;
   margin-top: 10%;
 }
-.nav-link h1 .hero-btns {
+
+.hero-btns {
   position: absolute;
   top: 70%;
   display: flex;
@@ -105,20 +116,20 @@ nav {
   align-items: center;
   gap: 40px;
 }
-.nav-link h1 .hero-btns .btn1 {
+.hero-btns .btn1 {
   padding: 16px 56px;
   background-color: #FCD980;
   color: #000;
   border: 0;
   border-radius: 41px;
 }
-.nav-link h1 .hero-btns span {
+.hero-btns span {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
 }
-.nav-link h1 .hero-btns span .btn2 {
+.hero-btns span .btn2 {
   color: white;
   background-color: transparent;
   border: none;
