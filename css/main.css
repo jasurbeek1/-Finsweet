@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+
 body {
   background-color: #1c1e53;
 }
