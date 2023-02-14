@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #1c1e53;
 }
